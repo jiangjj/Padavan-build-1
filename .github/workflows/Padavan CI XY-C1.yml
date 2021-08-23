@@ -2,7 +2,7 @@
 #  自动构建XY_C1
 #      
 # # # # # # # # # # #
-name: Padavan CI XY_C1
+name: Padavan CI XY-C1
 on: 
   release:
     types: [published]
@@ -17,7 +17,7 @@ on:
   watch:
     types: [started]
 env:
-  T_NAMES: "XY_C1"        # 设备名字数组
+  T_NAMES: "XY-C1"        # 设备名字数组
   BASE_PATH: padavan                # 基础目录
   PUBLIC_PATH: public               # 公共目录
   VERSION_FILE: versions.inc        # 版本后缀
@@ -29,7 +29,7 @@ env:
   WORK_PATH: /opt/rt-n56u           # 工作目录 一定要加 /
   UPLOAD_COWTRANSFER: true
   UPLOAD_WETRANSFER: true
-  FILE_NAME: "XY_C1"      
+  FILE_NAME: "XY-C1"      
   IMAGES_PATH: /opt/rt-n56u/images/ 
 jobs:
   build:
